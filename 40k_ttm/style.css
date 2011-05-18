@@ -1,0 +1,525 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin: 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*
+ * Begin Site Styling 
+ */
+
+body,html {
+	background:#002222;
+	font-family:Lucida Grande, Arial, sans-serif;
+}
+
+h1 {
+	color:white;
+	font-size:30px;
+	text-align:center;
+	font-family: 'Orbitron', arial, serif;
+	margin-top: 5px;
+}
+
+h2 {
+	color:#066;
+	font-size:20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+h3 {
+	font-size:17px;
+	font-family: 'Orbitron', arial, serif;
+	font-weight: normal;
+	color:#FFF;
+	text-align:center;
+	background:#006666;
+	width:100%;
+	padding:3px 0;
+	border-bottom: 1px solid white;
+}
+
+h4 {
+	font-size:17px;
+	font-family: 'Orbitron', arial, serif;
+	font-weight: normal;
+	background:#006666;
+	color:#FFF;
+	text-align:center;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+h4 a {
+	color:#FFF;
+	font-size:15px;
+}
+
+h4 a:hover {
+	color:#FFF;
+	text-decoration:underline;
+}
+
+h5 {
+	font-size:20px;
+	font-family: 'Orbitron', arial, serif;
+	color:#FFF;
+	background:#002222;
+	text-align:center;
+}
+
+h6 {
+	font-size:18px;
+	text-align:center;
+	margin:5px;
+}
+
+h7 {
+	font-size: 17px;
+	color: #444;
+	margin: 15px 0px;
+}
+
+a {
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+
+p {
+	font-family: 'Quattrocento', arial, serif;
+	font-size: 17px;
+	color:#444;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+hr {
+	width: 100%;
+}
+
+.half {
+	width: 88%;
+	color: #DDD;
+}
+
+.submit {
+	background: #008888;
+	color: white;
+}
+
+.submit:hover {
+	background: #009999;
+	color: white;
+}
+
+form {
+	width:350px;
+	background:#FFF;
+	border:1px solid #444;
+	margin-bottom:20px;
+	padding-bottom:10px;
+	font-size:15px;
+	-moz-box-shadow: 5px 5px 10px #000; /* FF3.5+ */
+  	-webkit-box-shadow: 5px 5px 10px #000; /* Saf3.0+, Chrome */
+     box-shadow: 5px 5px 10px #000; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+fieldset {
+	margin: 20px;
+}
+
+
+
+input {
+	margin-top:5px;
+	border:1px solid #444;
+	background:#FFF;
+	padding:3px;
+}
+
+input:hover,input:focus {
+	background:#EEE;
+}
+
+select {
+	max-width:300px;
+}
+
+strong {
+	color:#444;
+}
+
+.box_round {
+     -moz-border-radius: 12px; /* FF1+ */
+  	-webkit-border-radius: 12px; /* Saf3-4, iOS 1+, Android 1.5+ */
+	border-radius: 12px; /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+}
+
+.total_under {
+	color:green;
+}
+
+.total_over {
+	color:red;
+}
+
+.padding {
+	padding:5px 20px;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.checkbox {
+	width:20px;
+}
+
+h4.heading {
+	text-align:left;
+	margin:20px 20px 0;
+	padding:2px 20px;
+	border: 1px solid #444;
+	-moz-box-shadow: 5px 5px 10px #000; /* FF3.5+ */
+  	-webkit-box-shadow: 5px 5px 10px #000; /* Saf3.0+, Chrome */
+     box-shadow: 5px 5px 10px #000; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+.indent {
+	padding-left: 20px;
+}
+
+.comment_head {
+	background:#222;
+	color:#FFF;
+	text-align:center;
+}
+
+.number {
+	width: 20px;
+}
+
+.pagination {
+	padding: 3px 5px;
+	margin-right: 5px;
+	border: 1px solid #444;
+}
+
+.pagination:hover {
+	background: #066;
+	color: white;
+}
+
+.pagination_selected, .pagination_selected:hover {
+	padding: 3px 5px;
+	margin-right: 5px;
+	border: 1px solid #444;
+	background: #066;
+	color: white;
+}
+
+#leaderboard {
+	width:728px;
+	height:90px;
+	background:#FFF;
+	border:1px solid #000;
+	margin:20px auto auto;
+}
+
+#container {
+	width:960px;
+	overflow:hidden;
+	background:#DDD;
+	border:2px solid #FFF;
+	margin:20px auto auto;
+	-moz-box-shadow: 0px 0px 100px #ffffff; /* FF3.5+ */
+  	-webkit-box-shadow: 0px 0px 100px #ffffff; /* Saf3.0+, Chrome */
+    	box-shadow: 0px 0px 100px #ffffff; /* Opera 10.5, IE9, Chrome 10+ */
+ }
+
+#nav {
+	background:#003334;
+	padding:10px 0;
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-top-right-radius: 12px;
+	-moz-border-radius-topleft: 12px;
+	-moz-border-radius-topright: 12px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+#main {
+	width:775px;
+	float:left;
+	background:#DDD;
+}
+
+#content {
+	margin:20px;
+	padding:0 20px;
+}
+
+#news {
+	background:#FFF;
+	border:1px solid #444;
+	margin:20px;
+	padding:20px;
+	-moz-box-shadow: 5px 5px 10px #000; /* FF3.5+ */
+  	-webkit-box-shadow: 5px 5px 10px #000; /* Saf3.0+, Chrome */
+     box-shadow: 5px 5px 10px #000; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+#news p {
+	margin: 10px 0px;
+}
+
+#news img {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#right {
+	float:right;
+	padding-right:20px;
+	padding-top:20px;
+}
+
+#display {
+	float:right;
+	width:355px;
+	background:#FFF;
+	border:1px solid #444;
+	margin:20px 20px 20px 10px;
+	-moz-box-shadow: 5px 5px 10px #000; /* FF3.5+ */
+  	-webkit-box-shadow: 5px 5px 10px #000; /* Saf3.0+, Chrome */
+     box-shadow: 5px 5px 10px #000; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+#search {
+	padding-top:20px;
+}
+
+#army_info {
+	float:left;
+	width:350px;
+	background:#FFF;
+	border:1px solid #444;
+	margin:20px 10px 20px 20px;
+	-moz-box-shadow: 5px 5px 10px #000; /* FF3.5+ */
+  	-webkit-box-shadow: 5px 5px 10px #000; /* Saf3.0+, Chrome */
+     box-shadow: 5px 5px 10px #000; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+#view_army {
+	width:350px;
+	background:#FFF;
+	border:1px solid #444;
+	margin:20px auto;
+}
+
+#comments {
+	float:left;
+	width:355px;
+	height: 600px;
+	background:#FFF;
+	margin:20px 10px 20px 20px;
+	overflow: hidden;
+}
+
+#ads {
+	width:160px;
+	float:right;
+	background:#FFF;
+	border:1px solid #000;
+	margin:20px 20px 20px 0;
+	-moz-box-shadow: 5px 5px 10px #000; /* FF3.5+ */
+  	-webkit-box-shadow: 5px 5px 10px #000; /* Saf3.0+, Chrome */
+     box-shadow: 5px 5px 10px #000; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+#redirect {
+	width:400px;
+	background:#FFF;
+	border:1px solid #444;
+	margin:100px auto auto;
+	-moz-box-shadow: 0px 0px 100px #ffffff; /* FF3.5+ */
+	-webkit-box-shadow: 0px 0px 100px #ffffff; /* Saf3.0+, Chrome */
+ 	box-shadow: 0px 0px 100px #ffffff; /* Opera 10.5, IE9, Chrome 10+ */
+}
+
+#edit {
+	width: 600px;
+}
+
+h3 a {
+	color: white;
+}
+
+h3 a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#pageflip {
+}
+
+#pageflip img {
+	width: 50px; height: 52px;
+	z-index: 99;
+	position: absolute;
+	right: 0; top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+#pageflip .msg_block {
+	width: 50px; height: 50px;
+	position: absolute;
+	z-index: 50;
+	right: 0; top: 0;
+	background: url(img/pageflip.png) no-repeat right top;
+	text-indent: -9999px;
+}
+
+#nav-links {
+	text-align:center;
+	padding:10px;
+}
+
+#nav-links li {
+	display:inline;
+}
+
+#nav-links li a {
+	color:#FFF;
+	border:1px solid #FFF;
+	text-decoration:none;
+	font-family: 'Orbitron', arial, serif;
+	padding:5px;
+}
+
+#nav-links li a.selected {
+	color:#000;
+	background:#FFF;
+}
+
+#nav-links li a:hover {
+	background:#AABBBB;
+	color:#444;
+}
+
+form p,.delete {
+	margin-left:20px;
+}
+
+#left,#management {
+	float:left;
+	padding-left:20px;
+	padding-top:20px;
+}
