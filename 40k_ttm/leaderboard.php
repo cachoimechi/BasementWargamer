@@ -9,5 +9,3 @@
 <div id="leaderboard" class="box_shadow">
 		
 </div> <!-- End Leaderboad Ad -->
-
--->
